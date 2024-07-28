@@ -1,0 +1,534 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* banar */
+
+
+.navbar-brand img{
+    width: 70px!important;
+}
+.navbar-brand span{   
+    font-size: 35px;
+    padding-left: 10px;
+}
+/* baner part  */
+.banner-section{
+    background-image:linear-gradient(rgba(255, 179, 0, 0.886),rgba(240, 176, 25, 0.788)) , url("../image/BG\ Image\ 1.png");
+    height: 800px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+.banner-div h1{
+    font-size: 119px;
+    font-weight:bold;
+    color: white;
+}
+.banner-div p{
+    font-size: 17px;
+    color: white;
+}
+.banner-div{
+padding-left: 650px;
+padding-top: 200px;
+}
+.banner-btn button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    color:#f9af00 ;
+    font-weight: bold;
+}
+.slider-btn{
+    transform: translateY(-29px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-angle-left{
+    font-size: 15px;
+    background-color:rgba(255, 179, 0, 0.886) ;
+    padding:11px 14px;
+    border-radius: 50%;
+    color: white;
+}
+.fa-angle-right{
+    font-size: 35px;
+    background-color:black ;
+    padding:11px 16px;
+    border-radius: 50%;
+    color: white;
+}
+/* about_us_section */
+/* .about_us_section{
+    height: 700px;
+} */
+.about-div{
+    padding-top: 150px;
+    padding-bottom: 110px;
+  
+}
+.heding-text{
+    font-weight: bold;
+    font-size: 67px;
+}
+.heding-text span{
+    color: #f9af00;
+}
+.paragraph p{
+    font-size: 17px;
+}
+/* service-div */
+
+.service-div img{
+    height: 70px;
+}
+.readMore-btn {
+    padding:8px 35px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+/* gallery */
+.gallery{
+    height:900px ;
+    background-color: black;
+}
+.gallery p{
+   margin-bottom: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.gallery-img img{
+    object-fit: contain;
+    height:370px;
+}
+.gallery h2{
+    padding-top: 60px;
+}
+.gallery-img{
+    margin-top: 100px !important;
+}
+.midle-img img{
+    height: 480px;
+}
+.slider-btn-2 .fa-angle-righ{
+    background-color: rgb(217, 215, 215) !important;
+}
+/* ideas */
+.ideas{
+    height: 260px;
+}
+.ideas img{
+    height: 260px;
+    object-fit: cover;
+}
+/* latest_news */
+.latest_news{
+    height: 1030px;
+}
+.latest_news img{
+    width: 500px;
+    object-fit: cover;
+}
+.latest_news .limlight_img2 img{
+    transform: translateY(95px);
+}
+/* Our Testimonial part */
+.profile-card{
+    width: 400px !important; 
+    height: 440px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-div{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* contact us */
+.contact-section{
+    background-color: black;
+    height: auto;
+}
+.form-div {
+    width: 500px !important;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+  }
+  textarea {
+    height: 150px;
+  }
+  input[type="submit"] {
+    background-color: #dd9900;
+    color:black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+ iframe{
+    height: 350px;
+    margin-bottom: 105px;
+    border-radius: 20px;
+  }
+  /* footer */
+  .footer-section{
+    background-color: #dd9900;
+    height: auto;
+  }
+   .footer-section h5{
+    font-size: 30px;
+    font-weight: 400;
+   }
+   .social-icons i{
+    background-color:black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+   }
+   .footer-div{
+     flex-wrap: wrap;
+   }
+/* reponsive part*/
+@media screen and (max-width:1300px) {
+    .gallery-img {
+        gap: 40px;
+    }
+    .latest_news{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .profile-card{
+        width: 300px !important; 
+        height: 400px;
+    }
+    .map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .banner-div{
+        padding-left: 400px;
+        padding-top: 200px;
+        }
+        .about-div{
+            padding-top: 80px;
+            padding-bottom: 70px;
+            padding-left: 64px;
+            padding-right: 64px;
+        }
+        .latest_news{
+            height: 830px;
+        }
+        .heding-text{
+            font-size: 40px;
+        }
+}
+
+@media screen and (max-width:1100px) {
+    .banner-div{
+        padding-left:40px;
+        padding-top: 120px;
+        }
+        .banner-section{
+            height: 600px;
+            object-fit: cover;
+            background-size: cover;
+        } 
+        .banner-div h1{
+            font-size: 80px;
+            font-weight:bold;
+            color: white;
+        }
+        .readMore-btn {
+            padding:7px 25px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+        }
+        .gallery-img {
+            gap: 15px;
+        }
+        .latest_news{
+            height: 730px;
+
+        }
+}
+
+@media screen and (max-width:991px) {
+    .navbar-brand img{
+        width: 50px !important;
+        margin-top: 4px;
+    }
+    .navbar-brand span{
+        font-size: 27px;
+    }
+    .banner-section{
+        height: 500px;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+    } 
+    .banner-div h1{
+        font-size: 60px;
+    }
+    .banner-btn button{
+        padding: 13px 30px;
+    }
+    .fa-angle-right{
+        font-size: 22px;
+        padding:11px 14px;
+        border-radius: 50%;
+        color: white;
+    }
+    .slider-btn{
+        transform: translateY(-24px);
+    }
+    .about-div{
+        padding-top: 40px;
+        padding-bottom: 50px;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+    .heding-text{
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .paragraph {
+        font-size: 15px;
+    }
+    .readMore-btn {
+        padding:7px 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+    }
+    .gallery{
+        height:700px ;
+    }
+    .gallery-img{
+        margin-top:0px !important;
+    }
+    .gallery p{
+        margin-bottom: 0px;
+     }
+     .ideas{
+        height: 200px;
+    }
+    .ideas img{
+        height: 200px;
+        object-fit: cover;
+    }
+    .latest_news{
+        height: 630px;
+    }
+    .profile-img img{
+        height: 80px;
+    }
+    .sine-img img{
+        height: 30px;
+    }
+    .profile-card{
+        width: 280px !important; 
+        height: 350px;
+    }
+    .footer-section h5{
+        font-size: 25px;
+        font-weight: 400;
+       }
+}
+
+@media screen and (max-width:767px) {
+    .banner-section{
+        height: 400px;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+    } 
+    .banner-div h1{
+        font-size: 35px;
+    }
+    .banner-btn button{
+        padding: 12px 16px;
+        font-size: 10px;
+    }
+    .banner-div p{
+        font-size: 15px;
+    }
+    .banner-div{
+    padding-left: 25px;
+    padding-top: 90px;
+    }
+    .text_part {
+        margin-bottom: 20px !important;
+    }
+    .about-div{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    .heding-text {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .readMore-btn {
+        padding:7px 18px;
+        font-size: 12px;
+    }
+    .gallery{
+        height:550px ;
+    }
+    .gallery-img img{
+        object-fit: contain;
+        height:200px;
+    }
+    .midle-img img{
+        height: 300px;
+    }
+    .gallery h2{
+        padding-top: 30px;
+    }
+    .gallery p{
+        margin-bottom: 50px;
+     }
+     .navbar-nav li a{
+        font-size: 14px;
+     }
+     .latest_news{
+        height: 400px;
+    }
+    .latest_news{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .latest_news .readMore-btn {
+        padding:5px 10px;
+        font-size: 10px;
+    }
+    .latest_news .limlight_img2 img{
+        transform: translateY(0px);
+    }
+    .latest_news h4{
+        font-size: 25px;
+    }
+    .profile-img img{
+        height: 60px;
+    }
+    .footer-section h5{
+        font-size: 20px;
+        font-weight: 400;
+       }
+}
+
+@media screen and (max-width:565px) {
+    .navbar-brand img{
+        width: 40px !important;
+        margin-top: 8px;
+    }
+    .navbar-brand span{
+        font-size: 20px;
+    }
+    .banner-div h1{
+        font-size: 35px;
+    }
+    .banner-btn button{
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+    .banner-div p{
+        font-size: 13px;
+    }
+    .banner-div{
+    padding-left: 25px;
+    padding-top: 80px;
+    }
+    .banner-section{
+        height: 350px;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+    } 
+    .about-div{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: px;
+    }
+    .heding-text{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .paragraph {
+        font-size: 13px;
+    }
+    .gallery{
+        height:450px ;
+    }
+    .gallery h2{
+        padding-top: 20px;
+    }
+    .gallery p{
+        margin-bottom: 20px;
+     }
+    .ideas{
+        height: 120px;
+    }
+    .ideas img{
+        height: 120px;
+        object-fit: cover;
+    }
+    .ideas h4{
+       font-size: 20px;
+    }
+    .ideas p{
+        font-size: 8px;
+    }
+    .latest_news{
+        height: 300px;
+    }
+    .latest_news h4{
+        font-size: 20px;
+    }
+    .latest_news .readMore-btn {
+        padding:4px 6px;
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:400px) {
+    .latest_news h4{
+        font-size: 17px;
+    }
+    .latest_news .readMore-btn {
+        padding:4px 6px;
+        font-size: 6px;
+    }
+    .latest_news{
+        height: 250px;
+    }
+}
